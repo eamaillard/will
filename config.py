@@ -78,7 +78,7 @@ PLUGIN_BLACKLIST = [
 
 # Port to bind the web server to (defaults to $PORT, then 80.)
 # Set > 1024 to run without elevated permission.
-# HTTPSERVER_PORT = "9000"
+HTTPSERVER_PORT = "9000"
 
 
 # ------------------------------------------------------------------------------------
@@ -86,7 +86,7 @@ PLUGIN_BLACKLIST = [
 # ------------------------------------------------------------------------------------
 
 # The list of rooms will should join.  Default is all rooms.
-# ROOMS = ['Testing, Will Kahuna',]
+ROOMS = ['Gill testing']
 
 
 # The room will will talk to if the trigger is a webhook and he isn't told a specific room.
